@@ -15,9 +15,6 @@ lb = GPIO.PWM(36,100)
 rf = GPIO.PWM(37,100)
 rb = GPIO.PWM(38,100)
 
-oldCommand = ''
-oldspeedCommand = ''
-
 file = open("/var/www/html/command.txt","w")
 file.write("stop")
 file.close()
